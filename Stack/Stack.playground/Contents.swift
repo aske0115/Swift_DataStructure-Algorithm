@@ -6,7 +6,6 @@ protocol Stack{
     
     var peek:Element? { get }
     var isEmpty:Bool { get }
-    
 }
 
 struct StackArray<T>:Stack{
