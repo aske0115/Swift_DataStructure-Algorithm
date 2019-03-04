@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:BubbleSort/BubbleSort.playground">
+   </FileRef>
+   <FileRef
       location = "group:Queue">
    </FileRef>
    <FileRef
