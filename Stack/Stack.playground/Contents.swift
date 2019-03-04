@@ -1,12 +1,3 @@
-# Swift_DataStructure And Algorithm
-  
-데이터 구조 및 알고리즘 연습
-
-
-STACK
-
-```swift
-
 protocol Stack{
     associatedtype Element
     
@@ -52,5 +43,3 @@ extension StackArray:CustomStringConvertible
         return String(describing: stack)
     }
 }
-
-```
