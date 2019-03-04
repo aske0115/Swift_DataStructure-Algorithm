@@ -2,12 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Queue/Queue.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Stack/Stack.playground">
+   </FileRef>
+   <FileRef
       location = "group:BubbleSort/BubbleSort.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Queue">
-   </FileRef>
-   <FileRef
-      location = "group:Stack">
    </FileRef>
 </Workspace>
