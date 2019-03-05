@@ -10,6 +10,12 @@
       <FileRef
          location = "group:Sorting/SelectionSort.playground">
       </FileRef>
+      <FileRef
+         location = "group:Sorting/InsertSort.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Sorting/QuickSort.playground">
+      </FileRef>
    </Group>
    <Group
       location = "container:"

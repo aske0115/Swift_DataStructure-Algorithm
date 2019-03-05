@@ -29,5 +29,9 @@ struct Sort<T:Comparable>{
     }
 }
 
+var sort = Sort<Int>(dataArray: [5,3,22,86,99,32,4,1,101,243,53])
+sort.sortBySelection()
+
+
 
 
