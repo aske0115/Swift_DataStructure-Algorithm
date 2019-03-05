@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:BinarySearch/BinarySearch.playground">
+   </FileRef>
+   <FileRef
       location = "group:Queue/Queue.playground">
    </FileRef>
    <FileRef
