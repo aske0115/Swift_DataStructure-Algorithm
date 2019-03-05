@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <FileRef
-      location = "group:BinarySearch/BinarySearch.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Queue/Queue.playground">
-   </FileRef>
-   <FileRef
-      location = "group:Stack/Stack.playground">
-   </FileRef>
-   <FileRef
-      location = "group:BubbleSort/BubbleSort.playground">
-   </FileRef>
+   <Group
+      location = "container:"
+      name = "Sorting">
+      <FileRef
+         location = "group:Sorting/BubbleSort.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Sorting/SelectionSort.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "DataStructure">
+      <FileRef
+         location = "group:DataStructure/Queue.playground">
+      </FileRef>
+      <FileRef
+         location = "group:DataStructure/Stack.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Searching">
+      <FileRef
+         location = "group:Searching/BinarySearch.playground">
+      </FileRef>
+   </Group>
 </Workspace>
