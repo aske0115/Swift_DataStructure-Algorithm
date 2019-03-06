@@ -8,19 +8,19 @@ protocol Stack{
     var isEmpty:Bool { get }
 }
 
-struct StackArray<T>:Stack{
+struct StackArray<T>:Stack {
     
     typealias Element = T
     var stack = Array<Element>()
     
-    var isEmpty: Bool{
+    var isEmpty: Bool {
         get{
             return stack.isEmpty
         }
     }
     
     
-    var peek: Element?{
+    var peek: Element? {
         get{
             return isEmpty ? nil : stack.last
         }

@@ -1,8 +1,7 @@
-protocol Queue{
+protocol Queue {
     associatedtype Element
     mutating func enqueue(_ element:Element) -> Bool
     mutating func dequeue() ->Element?
-    
     
     var isEmpty:Bool { get }
     var peek:Element? { get }
@@ -18,19 +17,19 @@ extension arrayQueue:CustomStringConvertible
     }
 }
 
-struct arrayQueue<T>:Queue{
+struct arrayQueue<T>:Queue {
     
     typealias Element = T
     var queue = Array<Element>()
     var isEmpty: Bool{
         
-        get{
+        get {
             return queue.isEmpty
         }
     }
     
-    public var peek: Element?{
-        get{
+    public var peek: Element? {
+        get {
             return queue.first
         }
     }

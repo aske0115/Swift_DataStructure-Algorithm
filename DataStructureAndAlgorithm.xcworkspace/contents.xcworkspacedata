@@ -2,36 +2,47 @@
 <Workspace
    version = "1.0">
    <Group
-      location = "container:"
-      name = "Sorting">
-      <FileRef
-         location = "group:Sorting/BubbleSort.playground">
-      </FileRef>
-      <FileRef
-         location = "group:Sorting/SelectionSort.playground">
-      </FileRef>
-      <FileRef
-         location = "group:Sorting/InsertSort.playground">
-      </FileRef>
-      <FileRef
-         location = "group:Sorting/QuickSort.playground">
-      </FileRef>
+      location = "group:Algorithm"
+      name = "Algorithm">
+      <Group
+         location = "group:Searching"
+         name = "Searching">
+         <FileRef
+            location = "group:BinarySearch.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Sorting"
+         name = "Sorting">
+         <FileRef
+            location = "group:QuickSort.playground">
+         </FileRef>
+         <FileRef
+            location = "group:SelectionSort.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/geunhwalee/Documents/GitHub/Swift_DataStructure&amp;Alghrithm/Algorithm/Sorting/InsertionSort.playground">
+         </FileRef>
+         <FileRef
+            location = "group:BubbleSort.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:DynamicProgramming"
+         name = "DynamicProgramming">
+         <FileRef
+            location = "group:MinimumCost.playground">
+         </FileRef>
+      </Group>
    </Group>
    <Group
-      location = "container:"
+      location = "group:DataStructure"
       name = "DataStructure">
       <FileRef
-         location = "group:DataStructure/Queue.playground">
+         location = "group:Stack.playground">
       </FileRef>
       <FileRef
-         location = "group:DataStructure/Stack.playground">
-      </FileRef>
-   </Group>
-   <Group
-      location = "container:"
-      name = "Searching">
-      <FileRef
-         location = "group:Searching/BinarySearch.playground">
+         location = "group:Queue.playground">
       </FileRef>
    </Group>
 </Workspace>
