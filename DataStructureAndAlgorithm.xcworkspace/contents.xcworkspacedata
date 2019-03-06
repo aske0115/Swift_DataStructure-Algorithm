@@ -5,10 +5,17 @@
       location = "group:Algorithm"
       name = "Algorithm">
       <Group
-         location = "group:Searching"
+         location = "container:"
+         name = "DynamicProgramming">
+         <FileRef
+            location = "group:Algorithm/DynamicProgramming/MinimumCost.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:"
          name = "Searching">
          <FileRef
-            location = "group:BinarySearch.playground">
+            location = "group:Algorithm/Searching/BinarySearch.playground">
          </FileRef>
       </Group>
       <Group
@@ -25,13 +32,6 @@
          </FileRef>
          <FileRef
             location = "group:BubbleSort.playground">
-         </FileRef>
-      </Group>
-      <Group
-         location = "group:DynamicProgramming"
-         name = "DynamicProgramming">
-         <FileRef
-            location = "group:MinimumCost.playground">
          </FileRef>
       </Group>
    </Group>

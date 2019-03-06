@@ -28,8 +28,8 @@ struct arrayQueue<T>:Queue {
         }
     }
     
-    public var peek: Element? {
-        get {
+    public var peek: Element?{
+        get{
             return queue.first
         }
     }
