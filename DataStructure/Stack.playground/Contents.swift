@@ -8,37 +8,49 @@ protocol Stack{
     var isEmpty:Bool { get }
 }
 
+class Node<T>{
+    var value:T
+    var next:Node<T>?
+    init(_ value:T) {
+        self.value = value
+    }
+}
+
 struct StackArray<T>:Stack {
     
     typealias Element = T
-    var stack = Array<Element>()
+    var top:Node<Element>?
     
     var isEmpty: Bool {
         get{
-            return stack.isEmpty
+            return top == nil
         }
     }
-    
     
     var peek: Element? {
         get{
-            return isEmpty ? nil : stack.last
+            return isEmpty ? nil : top?.value
         }
     }
+    
     mutating func pop() -> Element? {
-        return  isEmpty ? nil : stack.popLast()
+        let next = top
+        top = next?.next
+        return next?.value
+        
     }
     
     mutating func push(_ element: Element) {
-        self.stack.append(element)
+        let oldTop = top
+        top = Node(element)
+        top?.next = oldTop
     }
-    
 }
 
 
 extension StackArray:CustomStringConvertible
 {
     public var description: String {
-        return String(describing: stack)
+        return String(describing: top?.value)
     }
 }
