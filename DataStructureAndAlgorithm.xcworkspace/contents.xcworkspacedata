@@ -45,4 +45,14 @@
          location = "group:Queue.playground">
       </FileRef>
    </Group>
+   <Group
+      location = "group:Hackerrank"
+      name = "Hackerrank">
+      <FileRef
+         location = "group:SockMerchantplayground.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Counting Valleys.playground">
+      </FileRef>
+   </Group>
 </Workspace>
