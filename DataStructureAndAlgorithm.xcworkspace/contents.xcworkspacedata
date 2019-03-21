@@ -54,5 +54,8 @@
       <FileRef
          location = "group:Counting Valleys.playground">
       </FileRef>
+      <FileRef
+         location = "group:Jumping on the clouds.playground">
+      </FileRef>
    </Group>
 </Workspace>
