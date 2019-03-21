@@ -57,5 +57,8 @@
       <FileRef
          location = "group:Jumping on the clouds.playground">
       </FileRef>
+      <FileRef
+         location = "group:Repeated String.playground">
+      </FileRef>
    </Group>
 </Workspace>
