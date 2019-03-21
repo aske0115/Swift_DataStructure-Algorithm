@@ -34,7 +34,6 @@
  ````
  */
 
-
 func repeatedString(s: String,n: Int) -> Int {
     // 입력값이 없으면 무조건 0 리턴
     if s.count == 0 {
