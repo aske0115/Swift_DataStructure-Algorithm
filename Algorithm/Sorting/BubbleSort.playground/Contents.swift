@@ -10,12 +10,12 @@ class BubbleSort<T : Comparable> {
             return array
         }
         
-        for i in 0..<array.count - 1 {
-            for y in i..<array.count {
-                if array[i] > array[y] {
+        for i in 0..<array.count {
+            for y in 0..<array.count - 1 - i {
+                if array[y] > array[y+1] {
                     let temp = array[y]
-                    array[y] = array[i]
-                    array[i] = temp
+                    array[y] = array[y+1]
+                    array[y+1] = temp
                 }
             }
         }
@@ -24,7 +24,7 @@ class BubbleSort<T : Comparable> {
 }
 
 
-let bubble = BubbleSort<String>()
-bubble.arr = ["20","40","10","30","50","25"]
+let bubble = BubbleSort<Int>()
+bubble.arr = [20,40,10,30,50,25]
 bubble.sortByBubble()
 
