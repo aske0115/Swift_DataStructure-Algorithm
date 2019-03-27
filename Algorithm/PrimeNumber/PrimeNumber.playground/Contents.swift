@@ -21,6 +21,6 @@ func printPrimeNumber(_ num:Int) ->[Int]{
     return primeNumber
 }
 
-print(printPrimeNumber(1000).map{$0})
+print(printPrimeNumber(1000))
 
 
