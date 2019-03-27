@@ -6,6 +6,13 @@
       name = "Algorithm">
       <Group
          location = "container:"
+         name = "ReverseString">
+         <FileRef
+            location = "group:Algorithm/ReverseString/ReverseString.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:"
          name = "DynamicProgramming">
          <FileRef
             location = "group:Algorithm/DynamicProgramming/MinimumCost.playground">
