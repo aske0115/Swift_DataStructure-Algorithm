@@ -47,6 +47,9 @@
          <FileRef
             location = "group:BubbleSort.playground">
          </FileRef>
+         <FileRef
+            location = "group:MergeSort.playground">
+         </FileRef>
       </Group>
    </Group>
    <Group

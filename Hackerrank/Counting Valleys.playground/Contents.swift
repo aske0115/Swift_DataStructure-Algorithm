@@ -37,7 +37,7 @@ func countingValleys(n: Int, s: String) -> Int {
     var seaLevel = 0
     let stringArray = s.map { $0 }
     
-    for s in stringArray{
+    stringArray.forEach{  s in
         if s == "U" {
             count += 1
         }else {
@@ -47,5 +47,6 @@ func countingValleys(n: Int, s: String) -> Int {
             seaLevel += 1
         }
     }
+
     return seaLevel
 }

@@ -47,7 +47,7 @@ struct Sort<T:Comparable>{
     // pivot을 통해서 최대로 쪼개서 큰수와 작은수를 정렬시키는 재귀함수
     private mutating func sortByQuick(_ start:Int, _ end:Int) {
 
-        var point = pivot(start, end)
+        let point = pivot(start, end)
         
         if (start < point - 1) {
             sortByQuick(start, point - 1)

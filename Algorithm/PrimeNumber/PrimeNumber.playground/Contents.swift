@@ -23,4 +23,3 @@ func printPrimeNumber(_ num:Int) ->[Int]{
 
 print(printPrimeNumber(1000))
 
-
