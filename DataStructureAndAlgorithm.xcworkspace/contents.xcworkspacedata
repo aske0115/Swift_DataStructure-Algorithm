@@ -77,5 +77,11 @@
       <FileRef
          location = "group:Repeated String.playground">
       </FileRef>
+      <FileRef
+         location = "group:Array_LeftRotation.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Array_2DArray_DS.playground">
+      </FileRef>
    </Group>
 </Workspace>
