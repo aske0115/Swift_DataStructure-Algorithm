@@ -96,5 +96,8 @@
       <FileRef
          location = "group:Roman to Integer.playground">
       </FileRef>
+      <FileRef
+         location = "group:Longest Common Prefix.playground">
+      </FileRef>
    </Group>
 </Workspace>
