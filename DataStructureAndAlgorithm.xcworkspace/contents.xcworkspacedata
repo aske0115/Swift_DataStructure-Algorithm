@@ -90,5 +90,8 @@
       <FileRef
          location = "group:ReverseInteger.playground">
       </FileRef>
+      <FileRef
+         location = "group:Palindrome Number.playground">
+      </FileRef>
    </Group>
 </Workspace>
