@@ -93,5 +93,8 @@
       <FileRef
          location = "group:Palindrome Number.playground">
       </FileRef>
+      <FileRef
+         location = "group:Roman to Integer.playground">
+      </FileRef>
    </Group>
 </Workspace>
