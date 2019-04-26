@@ -47,3 +47,9 @@ class Solution {
         return (reverse < Int32.min || reverse > Int32.max) ? 0 : reverse
     }
 }
+
+
+let sol = Solution()
+
+sol.reverse(-4321)
+sol.reverse2(-4321)
