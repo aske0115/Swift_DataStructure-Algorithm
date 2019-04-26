@@ -21,7 +21,6 @@ import Foundation
 
 class Solution {
     
-    //Using String Array.. simple
     func reverse(_ x: Int) -> Int {
         let negative:Int = x < 0 ? -1 : 1
         
@@ -32,7 +31,7 @@ class Solution {
         return (reverse < Int32.min || reverse > Int32.max) ? 0 : reverse
     }
     
-    //Using while
+    
     func reverse2(_ x: Int) -> Int {
         
         var origin = x
@@ -41,10 +40,14 @@ class Solution {
         while(origin != 0) {
             let data = origin % 10
             reverse = reverse * 10 + data
+            
+            if reverse < Int32.min || reverse > Int32.max {
+                return 0
+            }
             origin /= 10
         }
         
-        return (reverse < Int32.min || reverse > Int32.max) ? 0 : reverse
+        return reverse
     }
 }
 
@@ -52,4 +55,4 @@ class Solution {
 let sol = Solution()
 
 sol.reverse(-4321)
-sol.reverse2(-4321)
+sol.reverse2(-432120349023423)
