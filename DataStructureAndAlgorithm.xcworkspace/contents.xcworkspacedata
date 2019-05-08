@@ -106,5 +106,8 @@
       <FileRef
          location = "group:Valid Parentheses.playground">
       </FileRef>
+      <FileRef
+         location = "group:1-bit and 2-bit Characters.playground">
+      </FileRef>
    </Group>
 </Workspace>
