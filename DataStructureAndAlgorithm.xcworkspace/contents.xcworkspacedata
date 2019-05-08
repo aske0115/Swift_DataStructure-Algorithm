@@ -109,5 +109,8 @@
       <FileRef
          location = "group:1-bit and 2-bit Characters.playground">
       </FileRef>
+      <FileRef
+         location = "group:Merge Two Sorted Lists.playground">
+      </FileRef>
    </Group>
 </Workspace>
