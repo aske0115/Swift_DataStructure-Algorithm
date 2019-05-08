@@ -6,6 +6,10 @@
       name = "Algorithm">
       <Group
          location = "container:"
+         name = "Coding Test">
+      </Group>
+      <Group
+         location = "container:"
          name = "PrimeNumber">
          <FileRef
             location = "group:Algorithm/PrimeNumber/PrimeNumber.playground">
@@ -98,6 +102,9 @@
       </FileRef>
       <FileRef
          location = "group:Longest Common Prefix.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Valid Parentheses.playground">
       </FileRef>
    </Group>
 </Workspace>
