@@ -115,5 +115,8 @@
       <FileRef
          location = "group:TwoSum.playground">
       </FileRef>
+      <FileRef
+         location = "group:Add Two Number.playground">
+      </FileRef>
    </Group>
 </Workspace>
