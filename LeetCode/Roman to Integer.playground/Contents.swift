@@ -93,4 +93,4 @@ class Solution {
 
 let sol2 = Solution()
 
-sol2.romanToInt("MMMCC")
+sol2.romanToInt("MCMXCIV")

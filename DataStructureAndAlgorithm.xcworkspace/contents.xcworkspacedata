@@ -112,5 +112,8 @@
       <FileRef
          location = "group:Merge Two Sorted Lists.playground">
       </FileRef>
+      <FileRef
+         location = "group:TwoSum.playground">
+      </FileRef>
    </Group>
 </Workspace>

@@ -55,4 +55,4 @@ class Solution {
 let sol = Solution()
 
 sol.reverse(-4321)
-sol.reverse2(-432120349023423)
+sol.reverse2(-43212034902)
