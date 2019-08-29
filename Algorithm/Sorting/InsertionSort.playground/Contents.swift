@@ -5,10 +5,10 @@ struct Sort<T:Comparable>{
     
     mutating func sortByInsert() {
         for i in 1..<dataArray.count {
-            let key = dataArray[i]
-            var j = i - 1
+            let key = dataArray[i] // 5
+            var j = i - 1  // 1 dataArray[j] == 7
             while(j>=0 && dataArray[j] > key) {
-                dataArray[j+1] = dataArray[j]
+                dataArray[j+1] = dataArray[j] // 1,5,7
                 j -= 1
             }
             dataArray[j+1] = key
